@@ -8,5 +8,8 @@ configure :development do
 end
 
 get '/' do
+
+<h1>Hello <em>world</em>!</h1>
+
   'The app.rb file will act as the Router and the Controller of my MVC app.'
 end
